@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f7f2d9e-0eb4-4b4f-a79b-bf41212b2aa3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/it/unipd/mtss/RomanPrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/it/unipd/mtss/RomanPrinterTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="8f7f2d9e-0eb4-4b4f-a79b-bf41212b2aa3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716025989116</updated>
       <workItem from="1716025990160" duration="3730000" />
-      <workItem from="1716030638164" duration="377000" />
+      <workItem from="1716030638164" duration="681000" />
     </task>
     <servers />
   </component>
