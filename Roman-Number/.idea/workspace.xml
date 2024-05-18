@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f7f2d9e-0eb4-4b4f-a79b-bf41212b2aa3" name="Changes" comment="" />
+    <list default="true" id="8f7f2d9e-0eb4-4b4f-a79b-bf41212b2aa3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/it/unipd/mtss/RomanPrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/it/unipd/mtss/RomanPrinterTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,21 +23,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.ArabsToRomansTest.CasoParticolare900.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gabriele Magno/Desktop/Prova1/Roman-Number/pom.xml&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.ArabsToRomansTest.CasoParticolare900.executor": "Run",
+    "JUnit.ArabsToRomansTest.executor": "Run",
+    "JUnit.RomanPrinterTest.executor": "Run",
+    "JUnit.RomanPrinterTest.testNumero_94.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "develop",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Gabriele Magno/Desktop/Prova1/Roman-Number/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.RomanPrinterTest">
     <configuration name="ArabsToRomansTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Roman-Number" />
@@ -83,9 +88,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RomanPrinterTest.testNumero_94" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Roman-Number" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.unipd.mtss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.unipd.mtss" />
+      <option name="MAIN_CLASS_NAME" value="it.unipd.mtss.RomanPrinterTest" />
+      <option name="METHOD_NAME" value="testNumero_94" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RomanPrinterTest" />
+        <item itemvalue="JUnit.RomanPrinterTest.testNumero_94" />
         <item itemvalue="JUnit.ArabsToRomansTest" />
         <item itemvalue="JUnit.ArabsToRomansTest.CasoParticolare900" />
       </list>
@@ -108,6 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716025989116</updated>
       <workItem from="1716025990160" duration="3730000" />
+      <workItem from="1716030638164" duration="377000" />
     </task>
     <servers />
   </component>
