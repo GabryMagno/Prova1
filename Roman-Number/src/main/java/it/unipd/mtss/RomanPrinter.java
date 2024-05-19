@@ -93,7 +93,7 @@ public class RomanPrinter {
         if(num<0) {throw new NegativeNumberException();}
         if(num>3999) {throw new BiggerThan4000Exception();}
         
-        return printAsciiArt(ArabsToRomans.Converter(num));
+        else return printAsciiArt(ArabsToRomans.Converter(num));
       
     }
 
