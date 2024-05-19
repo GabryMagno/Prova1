@@ -9,7 +9,7 @@ public class ArabsToRomansTest
     static ArabsToRomans converter;
 
     @BeforeClass
-    public static void startPrinter() {
+    public static void startConverter() {
         converter = new ArabsToRomans();
     }
 
