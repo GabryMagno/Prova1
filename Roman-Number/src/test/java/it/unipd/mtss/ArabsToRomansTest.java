@@ -1,4 +1,4 @@
-package it.unipd.mtss;
+package it.unipd.mtss;//doc
 
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -9,7 +9,7 @@ public class ArabsToRomansTest
     static ArabsToRomans converter;
 
     @BeforeClass
-    public static void startPrinter() {
+    public static void startConverter() {
         converter = new ArabsToRomans();
     }
 
@@ -107,10 +107,9 @@ public class ArabsToRomansTest
     }
 
     @Test(expected = BiggerThan4000Exception.class)
-    public void convertGreaterThan5000() throws ZeroException, BiggerThan4000Exception, NegativeNumberException{
-        int bigger=4000;
+    public void convertGreaterThan3999() throws ZeroException, BiggerThan4000Exception, NegativeNumberException{
 
-        ArabsToRomans.Converter(bigger);
+        ArabsToRomans.Converter(4000);
     }
 
 }

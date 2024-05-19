@@ -3,7 +3,7 @@
 //  Teodora Mihajlovic 2068221
 ////////////////////////////////////////////////////////////////////
 
-package it.unipd.mtss;
+package it.unipd.mtss;//
 
 public class RomanPrinter {
 
@@ -88,11 +88,13 @@ public class RomanPrinter {
      * @return stringa ascii-art
      */
     public static String print(int num) throws ZeroException,NegativeNumberException, BiggerThan4000Exception{
-        try {
-            return printAsciiArt(ArabsToRomans.Converter(num));
-        } catch (Exception e) {
-            throw e;
-        }
+        
+        if(num==0) {throw new ZeroException(); }
+        if(num<0) {throw new NegativeNumberException();}
+        if(num>3999) {throw new BiggerThan4000Exception();}
+        
+        else return printAsciiArt(ArabsToRomans.Converter(num));
+      
     }
 
     /**
